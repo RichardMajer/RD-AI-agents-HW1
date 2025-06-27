@@ -1,6 +1,6 @@
-from openai_client import OpenAIClient
+from api.open_ai.openai_client import OpenAIClient
 from tools.calculator import Calculator
-from tools.extractor import Extractor
+from helpers.extractor import Extractor
 
 from openai.types.chat import ChatCompletionMessageParam
 
